@@ -1,8 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;    
     margin: 0;
     padding: 0;
-    background: url('Free Vector _ 3d earth graphic symbolizing global trade illustration_.jpg') no-repeat center center fixed;
+    background: url('markus-spiske-iar-afB0QQw-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff; /* White text */
     display: flex;
@@ -12,11 +14,11 @@ body {
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.7); /* Dark purple semi-transparent overlay */
-    padding: 20px;
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark purple semi-transparent overlay */
+    padding: 50px;
+    border-radius: 40px;
     width: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
@@ -29,7 +31,6 @@ h2 {
 
 .form-group label {
     display: block;
-    margin-bottom: 5px;
 }
 
 .form-group input {
@@ -37,23 +38,48 @@ h2 {
     padding: 8px;
     font-size: 16px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 120px;
 }
 
 .form-group input[type="radio"] {
     width: auto;
-    margin: 0 10px 0 0;
+    margin: 5px;
 }
-
+#go_ahead{
+    display: flex;
+    justify-content: center;
+}
 .form-group input[type="submit"] {
-    background-color: #805ad5; /* Purple button */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #06D001; /* Purple button */
+    background: linear-gradient(50deg, rgb(29, 206, 29), blue);
     color: #fff;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: px;
 }
+
+.gender{
+    width: calc(100% - 12px);
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 120px;
+}
+.fe_male{
+    display: flex;
+    align-items: center;
+}
+
 
 .form-group input[type="submit"]:hover {
     background-color: #6741a3; /* Darker purple on hover */
